@@ -4,9 +4,9 @@ import numpy as np
 data = pd.read_csv("job_dataset_without_interview.csv")
 # Define weights for interview performance
 weights = {
-    "course_grades": 0.35,
+    "course_grades": 0.25,
     "projects_completed": 0.25,
-    "experience_years": 0.24,
+    "experience_years": 0.34,
     "extracurriculars": 0.1,
     "is_suitable": 0.06
 }
